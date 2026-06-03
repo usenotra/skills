@@ -1,12 +1,18 @@
 # Notra Skills
 
-A collection of skills used by [Notra](https://usenotra.com).
+[![skills.sh](https://skills.sh/b/usenotra/skills)](https://skills.sh/usenotra/skills)
+
+Agent skills for [Notra](https://usenotra.com). Install with the [skills CLI](https://github.com/vercel-labs/skills).
+
+```bash
+npx skills add usenotra/skills
+```
 
 ## Skills
 
-- [marketing-image-generation](skills/marketing-image-generation/SKILL.md)
-- [brand-logos](skills/brand-logos/SKILL.md)
+- [**brand-logos**](skills/brand-logos/SKILL.md) — official product logos from [SVGL](https://svgl.app) (SVG download or shadcn components)
+- [**satori**](skills/satori/SKILL.md) — HTML/CSS → SVG for OG images and social cards
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT — see [LICENSE](LICENSE).
