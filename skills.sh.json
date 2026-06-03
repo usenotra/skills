@@ -1,0 +1,11 @@
+{
+  "$schema": "https://www.skills.sh/schema/skills.sh.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Design & Assets",
+      "description": "Source official brand and product logos as clean SVGs.",
+      "skills": ["brand-logos"]
+    }
+  ]
+}
