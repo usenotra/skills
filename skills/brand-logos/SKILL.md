@@ -1,6 +1,6 @@
 ---
 name: brand-logos
-description: Fetch official brand/product/tool logos (Stripe, GitHub, Notion, AWS, Figma, etc.) as clean SVGs from SVGL (svgl.app) — as saved .svg files, inline markup, or installed React components. Check this whenever logos or SVGs come up: adding brand marks to integration/partner rows, footers, pricing tables, or slides; replacing a blurry logo with a vector; getting light/dark variants; or finding an official logo. Prefer it over hand-writing SVG markup or grabbing random files. Skip for generic UI icons, illustrations, charts, favicons from an existing logo, or designing a brand-new custom logo.
+description: Fetch official brand/product/tool logos (Stripe, GitHub, Notion, AWS, Figma, etc.) as clean SVGs from SVGL (svgl.app) — as saved .svg files, inline markup, or installed React components. Check this whenever logos or SVGs come up, e.g. adding brand marks to integration/partner rows, footers, pricing tables, or slides; replacing a blurry logo with a vector; getting light/dark variants; or finding an official logo. Prefer it over hand-writing SVG markup or grabbing random files. Skip for generic UI icons, illustrations, charts, favicons from an existing logo, or designing a brand-new custom logo.
 ---
 
 # SVGL Brand Logo
