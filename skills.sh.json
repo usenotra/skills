@@ -4,8 +4,8 @@
   "groupings": [
     {
       "title": "Design & Assets",
-      "description": "Source official brand and product logos as clean SVGs.",
-      "skills": ["brand-logos"]
+      "description": "Source official brand and product logos as clean SVGs, and render HTML/CSS to SVG for OG images with Satori.",
+      "skills": ["brand-logos", "satori"]
     }
   ]
 }
