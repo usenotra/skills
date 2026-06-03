@@ -13,6 +13,8 @@ Trigger on any request to find, download, add, embed, or install a brand, produc
 
 This skill is for *known brand/product logos*. It is not for generic UI icons (use an icon set like Lucide/Heroicons), illustrations, or a company's own custom logo that wouldn't be in a public library.
 
+For social icons in app UI (e.g. share buttons, profile links, footer social rows), prefer the project's existing shared icon registry if it already has one — reuse it rather than fetching from SVGL and creating a parallel logo source. Only reach for SVGL when no such registry exists or the needed mark is missing from it.
+
 ## Choosing the approach
 
 Decide between the two workflows based on what the user is building:
