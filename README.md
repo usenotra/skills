@@ -1,11 +1,11 @@
 # Notra Skills
 
-This is a collection of skills used by [Notra](https://usenotra.com).
+A collection of skills used by [Notra](https://usenotra.com).
 
 ## Skills
 
 - [marketing-image-generation](skills/marketing-image-generation/SKILL.md)
-- [svgl-brand-logo](skills/svgl-brand-logo/SKILL.md)
+- [brand-logos](skills/brand-logos/SKILL.md)
 
 ## License
 
