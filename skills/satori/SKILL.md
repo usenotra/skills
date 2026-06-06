@@ -36,6 +36,7 @@ These behaviors most often produce wrong output or runtime errors. Account for t
 - **Default `flexDirection` is `row`, not `column`.** This is the opposite of how people mentally stack divs. Set `flexDirection: 'column'` whenever you want vertical stacking.
 - **Padding and margin shorthand need explicit units on every value.** `padding: '0 36'` throws `Expected length unit`. Write `padding: '0px 36px'`, and `'0px 36px 36px 36px'` for the four value form. A single bare number like `padding: 36` is fine, because Satori treats a lone number as px.
 - **Use `flex` layout for everything, including overlap.** For overlapping or precisely placed elements, use `position: 'absolute'` with `top`/`left`/`right`/`bottom` on a `position: 'relative'` parent.
+- **Never put HTML entity references in text.** Satori does not decode them, so `publish&#8209;ready` renders the literal characters `&#8209;` on the image instead of a non-breaking hyphen. This applies to numeric (`&#8209;`, `&#160;`) and named (`&nbsp;`, `&amp;`, `&mdash;`) entities alike. Write the actual Unicode character directly in the string instead — `publish‑ready` (or the literal glyph `publish‑ready`) for a non-breaking hyphen, ` ` for a non-breaking space, `&` for an ampersand, `—` for an em dash.
 
 ## CSS support
 
