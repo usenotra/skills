@@ -42,6 +42,30 @@ Brand constraints: [logo usage, typography direction, do/don't]
 Avoid: [specific visual cliches, clutter, wrong objects, unsafe claims]
 ```
 
+## Reusable Backgrounds
+
+For HTML/Satori-rendered assets (OG cards, Vercel `ImageResponse`, og-playground),
+start from the background library in `examples/backgrounds/`. Each file is a single
+JSX snippet you make the outer container and drop content inside. Categories: dark
+(dot/line grids, grid-glow, mesh aurora, spotlight, crosshatch, vignette), light
+(grids, blueprint, grid-fade, pastel mesh, warm/cool washes), and vibrant
+(sunset, ocean, mesh, stripes, gradient+grid). Rendered previews are in
+`/images/backgrounds`. See `examples/backgrounds/README.md` for the catalog and the
+Satori constraints (no `conic-gradient`; dotted patterns need percentage color
+stops; per-layer `backgroundSize` for grid + glow; fake fades with a same-color
+radial overlay).
+
+## Reusable Layouts
+
+For HTML/Satori-rendered assets, `examples/layouts/` has 18 generic, brand-free
+layout skeletons (placeholder copy only): heroes (centered, split), feature trio,
+stat trio, big number, testimonial, social-proof bar, logo cloud, announcement
+banner, blog header, pricing card, CTA banner, checklist, how-it-works steps,
+comparison columns, product/browser showcase, terminal window, and event/webinar
+card. Make a layout the root element, swap copy/colors/screenshots, and pair it
+with a background from `examples/backgrounds/`. Rendered previews are in
+`/images/layouts`; see `examples/layouts/README.md` for the catalog.
+
 ## Channel Guidance
 
 - LinkedIn or X launch image: 16:9 or 1.91:1, bold single message, product screenshot or conceptual hero, readable at feed size.
