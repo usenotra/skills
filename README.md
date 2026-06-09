@@ -10,11 +10,13 @@ Agent skills for [Notra](https://usenotra.com). Install with the [skills CLI](ht
 
 </div>
 
+## Install
+
 ```bash
 npx skills add usenotra/skills
 ```
 
-## Skills
+## Skill Overview
 
 - [**brand-logos**](skills/brand-logos/SKILL.md) — official product logos from [SVGL](https://svgl.app) (SVG download or shadcn components)
 - [**satori**](skills/satori/SKILL.md) — HTML/CSS → SVG for OG images and social cards
