@@ -4,9 +4,9 @@
 
 Agent skills for [Notra](https://usenotra.com). Install with the [skills CLI](https://github.com/vercel-labs/skills).
 
-[![brand-logos](https://shieldcn.dev/skills/installs/usenotra/skills/brand-logos.svg?variant=branded&label=)](https://skills.sh/usenotra/skills/brand-logos)
-[![satori](https://shieldcn.dev/skills/installs/usenotra/skills/satori.svg?variant=branded&label=)](https://skills.sh/usenotra/skills/satori)
-[![marketing-image-generation](https://shieldcn.dev/skills/installs/usenotra/skills/marketing-image-generation.svg?variant=branded&label=)](https://skills.sh/usenotra/skills/marketing-image-generation)
+[![brand-logos](https://shieldcn.dev/skills/installs/usenotra/skills/brand-logos.svg?variant=branded&label=brand-logos)](https://skills.sh/usenotra/skills/brand-logos)
+[![satori](https://shieldcn.dev/skills/installs/usenotra/skills/satori.svg?variant=branded&label=satori)](https://skills.sh/usenotra/skills/satori)
+[![marketing-image-generation](https://shieldcn.dev/skills/installs/usenotra/skills/marketing-image-generation.svg?variant=branded&label=marketing-image-generation)](https://skills.sh/usenotra/skills/marketing-image-generation)
 
 </div>
 
