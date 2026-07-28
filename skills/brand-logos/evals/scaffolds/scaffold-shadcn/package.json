@@ -7,12 +7,12 @@
     "build": "next build"
   },
   "dependencies": {
-    "next": "16.2.9",
-    "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "next": "16.2.12",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
-    "shadcn": "4.11.0"
+    "shadcn": "4.16.0"
   },
-  "packageManager": "pnpm@11.6.0"
+  "packageManager": "pnpm@11.17.0"
 }
