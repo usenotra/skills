@@ -14,6 +14,24 @@ description: Generate high-quality marketing images, ad creatives, launch visual
 5. Use the image generation tool only when the user has explicitly asked for an image asset or visual mockup.
 6. Review the result against the brief, then iterate with targeted changes instead of rewriting the whole concept.
 
+## Optional Atlas Cloud Provider
+
+When the user explicitly requests Atlas Cloud, or no native image-generation tool is available, use the bundled provider helper. Atlas Cloud remains optional; do not replace a working native image tool without the user's request.
+
+Set the API key in the environment, discover a current image model, then generate:
+
+```bash
+export ATLASCLOUD_API_KEY="your-api-key"
+python3 scripts/atlas_image.py list --search image
+python3 scripts/atlas_image.py generate \
+  --model "MODEL_ID_FROM_LIST" \
+  --prompt "Create a product launch image with a single focal point" \
+  --size 1024x1024 \
+  --output launch.png
+```
+
+The helper reads the live Atlas model catalog and the selected model's schema before submission. It submits generation exactly once, polls the result with a bounded loop, and can either print the output URL or download it with `--output`. Only pass `--size`, `--quality`, or `--output-format` values supported by the live schema.
+
 ## Marketing Defaults
 
 - Prefer one strong focal point over collages.
